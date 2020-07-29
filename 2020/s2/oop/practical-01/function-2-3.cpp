@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 void twofivenine(int array[], int n)
 {
 	int num_twos = 0;
@@ -18,5 +20,8 @@ else if (array[i] == 9)
 	num_nines = num_nines + 1;
 }
 }
+	cout << "2:" << num_twos << ";";
+	cout << "5:" << num_fives << ";";
+	cout << "9:" << num_nines << ";";
 }
 
