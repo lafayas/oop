@@ -18,5 +18,4 @@ else if (array[i] == 9)
 	num_nines = num_nines + 1;
 }
 }
-	
 }
