@@ -1,17 +1,18 @@
 // function to ...
 bool ascending(int array[], int n)
 {
-	char a = true;
-	char b = false;
-	if (n <= 0)
+	if (n < 1)
 {
-	return b;
+	return false;
 }
-	for (int i = 0; i < n; i++)
+	for (int i = 1; i < n; i++)
 {
-	if ((array[i] > array[i-1]) || (array[i] == array[i-1]))
+	if ((array[i-1] > array[i])) 
 {
-	return a;
+	return false;
 }
 }
+
+	return true;
 }
+
