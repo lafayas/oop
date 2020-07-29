@@ -1,6 +1,7 @@
 // function to ...
 int count(int array[], int n, int num)
 {
+  int count = 0;
 	if (n < 1)
 {
 	return 0;
@@ -9,7 +10,8 @@ int count(int array[], int n, int num)
 {
 	if (array[i] == num)
 {
-	return array[i];
+  count = count + 1;
+  return count;
 }
 }
 	return 0;
