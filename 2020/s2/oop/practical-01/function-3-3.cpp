@@ -8,7 +8,7 @@ int main()
 
     int len = 6;
     int temp = 0;
-    int count [];
+    int count [100000];
 
     for (int i = 0;i < len;i++)
     {
