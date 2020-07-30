@@ -12,8 +12,12 @@ int main()
 
     for (int i = 0;i < len;i++)
     {
-        temp  = a[i];
-        count[temp]++;  
+        if (temp  = a[i])
+        {
+            
+        
+        count[temp]++;
+        }
     }  
     for(int j = 1;j <= len;j++)
     {   
