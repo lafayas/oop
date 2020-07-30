@@ -23,5 +23,6 @@ else if (array[i] == 9)
 	cout << "2:" << num_twos << ";";
 	cout << "5:" << num_fives << ";";
 	cout << "9:" << num_nines << ";";
+	cout << "\n";
 }
 
