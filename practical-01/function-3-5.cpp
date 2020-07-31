@@ -11,7 +11,7 @@ double sumeven(double array[], int n)
 	for (int i = 0; i < n; i++)
 	{
 	
-		if (i % 2 != 0)
+		if (i % 2 == 0)
 		{
 	    	sumeven += array[i];
 		}
