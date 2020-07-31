@@ -7,14 +7,14 @@ double sumeven(double array[], int n)
 	{
 	    return 0;
 	}
-	double sumeven = 0;
+	double sumeven = 0.0;
 	for (int i = 0; i < n; i++)
 	{
 	
-	if (i % 2 != 0)
-	{
-	    sumeven = sumeven + array[i];
-	}
+		if (i % 2 != 0)
+		{
+	    	sumeven += array[i];
+		}
 	    
 	}
 	return sumeven;

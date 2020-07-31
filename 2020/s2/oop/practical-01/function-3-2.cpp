@@ -5,12 +5,16 @@ int median(int array[], int n)
 	{
 	    return 0;
 	}
+	
 	int num = 0;
+	
 	int sortedarray[n];
+	
 	for (int i = 0; i < n ; i++)
 	{
 	    sortedarray[i] = array[i];
 	}
+	
 	for (int j = n -1; j > 0; j--)
 	{
 	    for (int k = 0; k < j; k++)
