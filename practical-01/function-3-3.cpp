@@ -1,28 +1,29 @@
-#include <iostream>
-#include <stdlib.h>
-int main()
+int weightedaverage(int array[], int n)
 {
-
-    int a[6] = {1,2,1,4,1,3};
-
-
-    int len = 6;
-    int temp = 0;
-    int count [100000];
-
-    for (int i = 0;i < len;i++)
+    double avg = 0.0;
+    double sum = 0.0;
+    double c = 0.0;
+    
+    if (n < 1)
     {
-        if (temp  = a[i])
-        {
-            
-        
-        count[temp]++;
-        }
-    }  
-    for(int j = 1;j <= len;j++)
-    {   
-        int c = (count[j] * a[j-1]);
-        std::cout << c << std::endl;
+        return 0;
     }
-    return 0;
+    
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (array[i] == array[j])
+            {
+                c++;
+            }
+            
+        }
+        
+        avg = array[i] * c / n;
+        sum = avg + sum;
+        c = 0.0;
+    }
+    
+    return sum;
 }
