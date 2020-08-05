@@ -7,9 +7,12 @@ void print_scaled_matrix(int array[3][3],int scale)
         for (int j = 0; j < 3; j++)
         {
             matrix[i][j] = scale * array[i][j];
-            std::cout << matrix[i][j] << std::endl;
+            std::cout << matrix[i][j] <<" ";
             
         }
+    std::cout<<std::endl;
+        
     }
+    
     
 }
