@@ -8,20 +8,20 @@ int identity(int array[10][10])
         {
             if (i == j)
             {
-                if (array[i][j] != 1)
+                if (array[i][j] == 1)
                 {
-                    return false;
+                    return true;
                 }
             }
             else if (i != j)
             {
-                if (array[i][j] != 0)
+                if (array[i][j] == 0)
                 {
-                    return false;
+                    return true;
                 }
             }
             else
-            return true;
+            return false;
         }
     }
     return 0;
