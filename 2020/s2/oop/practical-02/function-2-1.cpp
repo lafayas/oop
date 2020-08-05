@@ -4,7 +4,7 @@ using namespace std;
 void print_as_binary(string decimal_number)
 {
     int n = stoi(decimal_number);
-    for (int i = 8; i >= 0; i--)
+    for (int i = 4; i >= 0; i--)
     {
         if (n & (1 << i))
             cout << "1";
