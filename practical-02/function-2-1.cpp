@@ -4,11 +4,15 @@ using namespace std;
 void print_as_binary(string decimal_number)
 {
     int n = stoi(decimal_number);
-    for (int i = 9; i >= 0; i--)
+    int a[10];
+    int i;
+    for (i = 0; n > 0; i++)
     {
-        if (n & (1 << i))
-            cout << "1";
-        else
-            cout << "0";
+        a[i] = n%2;
+        n = n/2;
+    }
+    for (i = i -1; i >= 0; i--)
+    {
+        cout<<a[i];
     }
 }
