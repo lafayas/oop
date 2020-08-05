@@ -58,7 +58,8 @@ for (int i = 0; i < 4; i++)
         }
     
 }
-
+    
+    cout << "0:" << num_zeros << ";";
 	cout << "1:" << num_ones << ";";
 	cout << "2:" << num_twos << ";";
 	cout << "3:" << num_threes << ";";
@@ -68,6 +69,5 @@ for (int i = 0; i < 4; i++)
 	cout << "7:" << num_sevens << ";";
 	cout << "8:" << num_eights << ";";
 	cout << "9:" << num_nines << ";";
-	cout << "0:" << num_zeros << ";";
 	cout << "\n";
 }
