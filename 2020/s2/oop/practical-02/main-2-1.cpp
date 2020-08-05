@@ -9,6 +9,6 @@ int main(int argc, char **argv)
 {
     std::string decimal_number = "23";
     print_as_binary(decimal_number);
-    printf("\n")
+    printf("\n");
 	return 0;
 }
