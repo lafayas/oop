@@ -5,8 +5,6 @@ extern int sum_if_a_palindrome(int*, int);
 int main(int argc,char **argv)
 {
     int integers[5] = {1, 4, 3, 2, 2};
-    std::cout << is_a_palindrome(integers, 5) << std::endl;
-    std::cout << sum_elements(integers, 5) << std::endl;
     std::cout << sum_if_a_palindrome(integers, 5) << std::endl;
     return 0;
 }
