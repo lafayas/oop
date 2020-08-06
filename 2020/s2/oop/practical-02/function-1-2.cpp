@@ -15,7 +15,7 @@ int identity(int array[10][10])
             }
             else if (i != j)
             {
-                if (array[i][j] == 0)
+                if (array[i][i] == 0 && array[j][j] == 0)
                 {
                     return true;
                 }
