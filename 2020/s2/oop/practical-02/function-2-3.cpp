@@ -40,7 +40,7 @@ int sum_if_a_palindrome(int integers[], int length)
     int sum = 0;
     for (int i = 0; i < length / 2; i++)
     {
-        if (integers[i + 1] >= integers[i] && integers[i] == integers[length - i - 1])
+        if (integers[i] == integers[length - i - 1])
         {
             for (int i = 0; i < length; i++)
             {   
