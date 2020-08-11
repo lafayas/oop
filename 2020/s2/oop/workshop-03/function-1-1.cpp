@@ -2,7 +2,6 @@
 
 Signature: void printer(int array[10][10]);*/
 #include <iostream>
-#include <iomanip>
 using namespace std;
 void printer(int array[10][10])
 {
@@ -10,9 +9,10 @@ void printer(int array[10][10])
     {
         for (int i = 0; i < 10; i++)
         {
-            cout << array[j][i] << left<< setw(10); 
-            cout<<endl;
+        
+            cout << array[j][i] << " ";
         }
+        cout << "\n" << endl;
     }
     
 }
