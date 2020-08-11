@@ -5,18 +5,18 @@ Signature: void printer(int array[10][10]);*/
 using namespace std;
 void printer(int array[10][10])
 {
-    for (int j = 0; j < 10; j++)
+    for (int i = 0; i < 10; i++)
     {
-        for (int i = 0; i < 10; i++)
+        for (int j = 0; j < 10; j++)
         {   
             if (i <= 9 && j <= 9)
             {
         
-                cout << array[j][i] << " ";
+                cout << array[i][j] << " ";
             }
             else
             {
-                cout << array[j][i];
+                cout << array[i][j];
             }
         }
         cout << "\n";
