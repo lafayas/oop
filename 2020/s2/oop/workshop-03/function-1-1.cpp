@@ -8,11 +8,18 @@ void printer(int array[10][10])
     for (int j = 0; j < 10; j++)
     {
         for (int i = 0; i < 10; i++)
-        {
+        {   
+            if (i <= 9 && j <= 9)
+            {
         
-            cout << array[j][i] << " ";
+                cout << array[j][i] << " ";
+            }
+            else
+            {
+                cout << array[j][i];
+            }
         }
-        cout << "\n" << endl;
+        cout << "\n";
     }
     
 }
