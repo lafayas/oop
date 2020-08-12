@@ -1,5 +1,4 @@
 #include <iostream>
-
 extern int binary_to_number(int*, int);
 int main()
 {
