@@ -1,5 +1,4 @@
 #include <iostream>
-#include <iomanip>
 extern void printer(int[10][10]);
 int main()
 {
