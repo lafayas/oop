@@ -8,13 +8,13 @@ void printer(int array[10][10])
             if (i <= 9 && j <9)
             {
                 std::cout << array[i][j] << " ";
-                
+
             }
-            else 
+            else
             {
                 std::cout << array[i][j];
             }
         }
-        std::cout << "\n";
+        std::cout <<  << std::endl;
     }
 }
