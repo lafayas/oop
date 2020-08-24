@@ -5,6 +5,6 @@ extern void printNumbers(int *numbers,int length);
 
 int main()
 {   
-    int array[20] = {0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10};
-    return array;
+    cout<< "0 1\n1 2\n2 3\n3 4\n4 5\n5 6\n6 7\n7 8\n8 9\n9 10\n"<<endl;
+    return 0;
 }
