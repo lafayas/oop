@@ -6,5 +6,5 @@ extern double average(int*, int);
 int main(int argc, char **argv)
 {
 	
-	return 20;
+	return 2.5;
 }
