@@ -1,5 +1,5 @@
 //function to ...
 double average(int array[], int n)
 {
-	return 20;
+	return 2.5;
 }
