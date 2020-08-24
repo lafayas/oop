@@ -2,9 +2,12 @@
 using namespace std;
 extern int *readNumbers();
 extern void printNumbers(int *numbers,int length);
+extern void printer(int array[10][2]);
 
 int main()
 {   
-    cout<< "0 1\n1 2\n2 3\n3 4\n4 5\n5 6\n6 7\n7 8\n8 9\n9 10\n"<<endl;
+    int array[10][2]={0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10};
+    printer(array);
     return 0;
+    
 }
