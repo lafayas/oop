@@ -1,14 +1,6 @@
 #include <iostream>
 using namespace std;
-int *readNumbers()
-{
-    return 0;
-}
 
-void printNumbers(int *numbers,int length)
-{
-    cout<< "\n";
-}
 
 void printer(int array[10][2])
 {
