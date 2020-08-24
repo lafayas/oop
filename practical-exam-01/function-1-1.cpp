@@ -15,6 +15,6 @@ void printer(int array[10][10])
                 std::cout << array[i][j];
             }
         }
-        std::cou<<std::endl;
+        std::cout<<std::endl;
     }
 }
