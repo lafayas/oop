@@ -3,8 +3,8 @@ using namespace std;
 
 int *readNumbers()
 {
-    int length = 3;
-	int *readNumbers = new int [3];
+    int length = 10;
+	int *readNumbers = new int [10];
 	
 	if (length <1)
 	{
