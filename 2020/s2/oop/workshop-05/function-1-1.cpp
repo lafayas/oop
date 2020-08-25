@@ -1,31 +1,28 @@
 #include <iostream>
 using namespace std;
+
 int *readNumbers()
 {
-    return 0;
+    int length = 10;
+	int *readNumbers = new int [10];
+	
+	if (length <1)
+	{
+		return 0;
+	}
+
+	for (int i = 0; i < length; i++)
+	{
+		cin>>*(readNumbers+i);
+	}
+	
+	return readNumbers;
 }
 
 void printNumbers(int *numbers,int length)
 {
-    
-}
-
-void printer(int array[10][2])
-{
-    for (int i = 0; i < 10; i++)
-    {
-        for (int j = 0; j < 2; j++)
-        {
-            if (i <= 9 && j <1)
-            {
-                std::cout << array[i][j] << " ";
-
-            }
-            else
-            {
-                std::cout << array[i][j];
-            }
-        }
-        std::cout<<std::endl;
-    }
+	for (int i = 0; i < length; i++)
+	{
+		cout<<i<<" "<<*(numbers+i)<<endl;
+	}
 }
