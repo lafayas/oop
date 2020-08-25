@@ -7,9 +7,10 @@ bool equalsArray(int *numbers1,int *numbers2,int length);
 int main()
 {   
     int length = 3;
+		
 	int *numbers1 = new int [length];
 	int *numbers2 = new int [length];
-	
+
 	numbers1 = readNumbers();
 	numbers2 = readNumbers();
 	
@@ -17,7 +18,6 @@ int main()
 	
 	delete [] numbers1;
 	delete [] numbers2;
-	
+
 	return 0;
-    
 }
