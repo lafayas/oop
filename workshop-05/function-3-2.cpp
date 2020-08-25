@@ -51,8 +51,8 @@ int *reverseArray(int *numbers1,int length)
 	}
 
 	for (int i = 0; i < length; i++)
-	{
-		n = n - 1;
+	{   
+	    n = n - 1;
 		*(reverseArray + n) = *(numbers1 + i);
 	}
 	
