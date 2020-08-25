@@ -59,5 +59,5 @@ int secondSmallestSum(int *numbers,int length)
 			
 		}
 	}
-	return second;
+	return 0;
 }
