@@ -28,16 +28,28 @@ void printNumbers(int *numbers,int length)
 }
 
 bool equalsArray(int *numbers1,int *numbers2,int length)
-{
-    for (int i = 0; i < length; i++)
+{   
+    bool equalsArray = 0;
+    int counter = 0;
+    
+    if (length < 1)
     {
-        if (numbers1[i] == numbers2[i])
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return equalsArray;
     }
+    
+    for (int i = 0; i < length; i++)
+	{
+		if (*(numbers1 + i) == *(numbers2 + i))
+			counter = counter+1;
+	}
+	
+	if (counter == length)
+	{
+		equalsArray = 1;
+		return equalsArray;	
+	}
+	else
+	{
+		return equalsArray;
+	}
 }
