@@ -15,5 +15,5 @@ int main()
     printer(array);
 
     return array;
-                        
+
 }
