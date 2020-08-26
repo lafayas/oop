@@ -3,7 +3,7 @@
 
 using namespace std; 
 
-int *readNumbers(int n)
+int createArray(int n)
 {
   int *readNumbers = new int [n];
   
@@ -17,7 +17,7 @@ int *readNumbers(int n)
   return readNumbers;
 }
 
-void printNumbers(int *numbers, int length)
+void displayArray(int *numbers, int length)
 {
   for (int i = 0; i < length; i++)
   {

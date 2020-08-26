@@ -3,8 +3,8 @@
 
 using namespace std;  
 
-extern int *readNumbers(int length);
-extern void printNumbers(int *numbers, int length);
+extern int createArray(int length);
+extern void displayArray(int *numbers, int length);
 
 int main ()
 {
@@ -12,10 +12,10 @@ int main ()
   int *numbers = new int [length];
   
   
-  numbers = readNumbers(length);
+  numbers = createArray(length);
   
   
-  printNumbers(numbers, length);
+  displayArray(numbers, length);
   
   
   delete [] numbers;
