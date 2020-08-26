@@ -33,7 +33,14 @@ void printSubArrays(int *numbers,int length)
 				}
 				
 			}
-			cout<< "}";
+			if (j == length - 1)
+			{
+				cout<< "}";
+			}
+			else
+			{
+				cout<< "},";
+			}
 
 			
 		}
