@@ -35,6 +35,9 @@ int secondSmallestSum(int *numbers,int length)
 	}
 
 	int sum = numbers[0];
+	
+	
+	
 	int second = numbers[0];
 	int new_sum = 0;
 	
