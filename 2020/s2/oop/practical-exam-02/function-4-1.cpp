@@ -54,7 +54,7 @@ void printSubArrays(int *numbers,int length)
              else
          {
 
-                cout<<","<<numbers[j]
+                cout<<","<<numbers[j];
 
          }
         }
