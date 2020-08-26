@@ -22,5 +22,9 @@ void displayArray(int *numbers, int length)
 }
 void bmiIndex(int weight)
 {
-
+    cout<<"bit underweight"<<endl;
+    cout<<"Healthy weight!"<<endl;
+    cout<<"That's overweight."<<endl;
+    cout<<"Looks like obese"<< endl;
+    cout<<"Hmmm, is this correct?"<<endl;
 }
