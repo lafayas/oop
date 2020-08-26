@@ -41,6 +41,6 @@ void bmiIndex(int weight)
     }
     else
     {
-        cout<< "Hmm, is this correct?"<< endl;
+        cout<< "Hmmm, is this correct?"<< endl;
     }
 }
