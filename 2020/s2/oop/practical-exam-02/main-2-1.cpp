@@ -11,8 +11,7 @@ int main()
     int length = 4;
     int n = 4;
     int *weight1 = createArray(length);
-    int weight = 0;
-    *weight1 = weight;
+    int weight = *weight1; 
   
   
     bmiIndex(weight);
