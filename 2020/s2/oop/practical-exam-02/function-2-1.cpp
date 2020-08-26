@@ -20,14 +20,15 @@ void displayArray(int *numbers, int length)
     cout<<i<<" "<<*(numbers+i)<<endl;
   }
 }
-void bmiIndex(int *weight)
+void bmiIndex(int weight)
 {
     int length = 4;
+    int *weight1 = &weight;
     string *weight0 = new string [length];
     
     for (int i = 0; i < length; i++)
     {
-        switch(weight[i])
+        switch(weight1[i])
         {
             case 18:
             weight0[i] = "bit underweight";
@@ -49,6 +50,6 @@ void bmiIndex(int *weight)
     }
     for (int i = 0; i < length; i++)
     {
-         cout<<i<<" "<<*(weight+i)<<" "<<*(weight0+i)<<endl;
+         cout<<i<<" "<<*(weight1+i)<<" "<<*(weight0+i)<<endl;
     }
 }
