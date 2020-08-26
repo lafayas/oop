@@ -20,7 +20,7 @@ void displayArray(int *numbers, int length)
     cout<<i<<" "<<*(numbers+i)<<endl;
   }
 }
-void bmiIndex(int *weight)
+void bmiIndex(int weight)
 {
 
 }
