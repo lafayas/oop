@@ -22,7 +22,7 @@ void displayArray(int *numbers, int length)
 
 void printSubArrays(int *numbers, int length)
 {   
-    int s = 0
+    int s = 0;
     for (int i = 0; i < length; i++)
     {
         for (int j = i; j < length; j++)
