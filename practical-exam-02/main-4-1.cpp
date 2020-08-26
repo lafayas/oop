@@ -18,10 +18,10 @@ int main ()
   numbers = createArray(length);
   
   
-  cout<< "{3},{3, 2},{3, 2, 5}, {2}, {2 ,5}"<< endl;
+  printSubArray(numbers, length);
   
   
   delete [] numbers;
   
-  return 0;
+  return arr;
 }
