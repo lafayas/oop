@@ -15,7 +15,7 @@ int *createArray(int n)
 void printSubArrays(int *numbers,int length)
 {
 	int array[length];
-	int counter2 = 4; 
+	int counter2 = 3; 
 	int counter3;
 	for (int i = 0; i < length; i++)
 	{   
