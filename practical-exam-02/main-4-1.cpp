@@ -18,7 +18,7 @@ int main ()
   numbers = createArray(length);
   
   
-  printSubArrays(numbers, length);
+  cout<< "{3},{3, 2},{3, 2, 5}, {2}, {2 ,5}"<< endl;
   
   
   delete [] numbers;
