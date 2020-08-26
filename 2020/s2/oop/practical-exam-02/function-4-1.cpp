@@ -14,35 +14,21 @@ int *createArray(int n)
 
 void printSubArrays(int *numbers,int length)
 {
-	int array[length];
-	int counter2 = 10; 
-	int counter3;
+	
 	for (int i = 0; i < length; i++)
 	{   
-	    
-		counter3 = 1;
-		for (int j = 0; j < counter2; j++)
+	    for (int j = i; j < length; j++)
 		{
-			cout << "{";
 			
-			for (int m = 0; m < counter3; m++)
+			for (int m = i; m <= j; m++)
 			{   
 			   
-				cout << numbers[m];
-				if (m < counter3 - 1)
-				{
-					cout << ",";
-				}
+				cout<< numbers[m]<< " ";
 				
 			}
-			cout << "}";
-			if(j < counter2 - 1)
-			{
-				cout << ",";
-			}
-		counter3++;
+
 		}
-		counter2--;
+		
 		
 	    cout<<endl;
 	}
