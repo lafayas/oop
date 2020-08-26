@@ -18,10 +18,10 @@ int main ()
   numbers = createArray(length);
   
   
-  printSubArray(numbers, length);
+  printSubArrays(numbers, length);
   
   
   delete [] numbers;
   
-  return arr;
+  return 0;
 }
