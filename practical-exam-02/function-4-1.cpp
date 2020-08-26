@@ -15,12 +15,9 @@ int *createArray(int n)
 void printSubArrays(int *numbers,int length)
 {
 
-    cout<< "{3}"<<endl;
-    cout<< "{3, 2}"<< endl;
-    cout<< "{3, 2, 5}"<<endl;
-    cout<< "{2}"<<endl;
-    cout<< "{2, 5}"<<endl;
-    cout<< "{5}"<< endl;
+    cout<< "{3},{3,2},{3,2,5}"<<endl;
+    cout<< "{2},{2,5}"<< endl;
+   
     
 
 }
