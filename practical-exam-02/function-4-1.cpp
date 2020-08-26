@@ -20,17 +20,50 @@ void displayArray(int *numbers, int length)
   }
 }
 
-void printSubArrays(int *numbers, int length)
-{   
-    int s = 0;
-    for (int i = 0; i < length; i++)
-    {
-        for (int j = i; j < length; j++)
-        {
-            for (int k = i; k <= j; k++)
-            {
-                s = s + numbers[i];
-            }
+void printSubArrays(int *numbers,int length)
+{
+
+ int arr [10];
+ int res = 0;
+ int k = 0; 
+ int s =0 ;
+ int secnum = 0;
+
+
+   for(int i = 0; i < length ; i++)
+   {
+    
+             k=k+s;
+             cout<<"{"<<numbers[i]<<"}"<<endl;
+             cout<<"{"<<numbers[i];
+             secnum = numbers[i];
+             s=1;
+   
+        if(i<length-1)
+        { 
+           int e = 0;    
+          
+         for(int j = i+e; j <length ; j++)
+         {
+             e++;
+             k++;
+             if (j= length)
+             {
+                cout<<numbers[j]<<"}"<<endl;
+             }
+             else
+         {
+
+                cout<<","<<numbers[j]
+
+         }
         }
-    }
+      }
+
+
+
+
+
+   }
+
 }
