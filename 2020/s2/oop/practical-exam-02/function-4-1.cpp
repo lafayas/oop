@@ -12,27 +12,38 @@ int *createArray(int n)
     return createArray;
 }
 
-void printSubArrays(int *numbers,int length){
+void printSubArrays(int *numbers,int length)
+{
 	int array[length];
-	int counter2, counter3;
-	for (int i = 0; i < length; i++){
+	int counter2 = 4; 
+	int counter3;
+	for (int i = 0; i < length; i++)
+	{   
+	    
 		counter3 = 1;
-		for (int j = 0; j < counter2; j++){
+		for (int j = 0; j < counter2; j++)
+		{
 			cout << "{";
 			
-			for (int m = 0; m < counter3; m++){
-					cout << numbers[m];
-				if (m < counter3-1){
+			for (int m = 0; m < counter3; m++)
+			{   
+			   
+				cout << numbers[m];
+				if (m < counter3 - 1)
+				{
 					cout << ",";
 				}
+				
 			}
 			cout << "}";
-			if(j < counter2-1){
+			if(j < counter2 - 1)
+			{
 				cout << ",";
 			}
-			counter3++;
+		counter3++;
 		}
 		counter2--;
-		cout << endl;
+		
+	    cout<<endl;
 	}
 }

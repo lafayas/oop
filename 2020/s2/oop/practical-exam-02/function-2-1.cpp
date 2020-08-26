@@ -47,6 +47,6 @@ void bmiIndex (int weight)
   for (int i = 0; i < length; i++)
   {
     
-    cout<<i<<" "<<*(days+i)<<" "<<*(names+i)<<endl;
+    cout<<i<<" "<<*(weight+i)<<" "<<*(weight0+i)<<endl;
   }
 }
