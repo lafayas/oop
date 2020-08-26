@@ -5,6 +5,8 @@ using namespace std;
 
 extern int *createArray(int n);
 extern void displayArray(int *numbers, int length);
+extern void printSubArrays(int *numbers, int length)
+
 
 int main ()
 {
