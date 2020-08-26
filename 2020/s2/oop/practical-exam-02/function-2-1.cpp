@@ -22,12 +22,13 @@ void displayArray(int *numbers, int length)
 }
 
 void bmiIndex (int weight)
-{
-      string *weight0 = new string [length]; 
+{   
+      string *weight0 = new string [4];
+      int *weight1 = &weight;
   
-  for (int i = 0; i < length; i++)
+  for (int i = 0; i < 4; i++)
   {
-      switch(weight[i])
+      switch(weight1[i])
       {
           case 18:
           weight0[i] = "bit underweight";
@@ -40,13 +41,14 @@ void bmiIndex (int weight)
           case 39:
           weight0[i] = "Looks like obese";
           break;
-          default[i] = "Hmmm, is that correct?";
+          default:
+          weight0[i] = "Hmmm, is that correct?";
           break;
       }
   }
-  for (int i = 0; i < length; i++)
+  for (int i = 0; i < 4; i++)
   {
     
-    cout<<i<<" "<<*(weight+i)<<" "<<*(weight0+i)<<endl;
+    cout<<i<<" "<<*(weight1+i)<<" "<<*(weight0+i)<<endl;
   }
 }
