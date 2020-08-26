@@ -20,11 +20,33 @@ void displayArray(int *numbers, int length)
     cout<<i<<" "<<*(numbers+i)<<endl;
   }
 }
-void bmiIndex(int weight)
+
+void bmiIndex (int weight)
 {
-    cout<<"bit underweight"<<endl;
-    cout<<"Healthy weight!"<<endl;
-    cout<<"That's overweight."<<endl;
-    cout<<"Looks like obese"<< endl;
-    cout<<"Hmmm, is this correct?"<<endl;
+      string *weight0 = new string [length]; 
+  
+  for (int i = 0; i < length; i++)
+  {
+      switch(weight[i])
+      {
+          case 18:
+          weight0[i] = "bit underweight";
+          break;
+          case 24:
+          weight0[i] = "Healthy weight!";
+          break;
+          case 29:
+          weight0[i] = "That's overweight.";
+          case 39:
+          weight0[i] = "Looks like obese";
+          break;
+          default[i] = "Hmmm, is that correct?";
+          break;
+      }
+  }
+  for (int i = 0; i < length; i++)
+  {
+    
+    cout<<i<<" "<<*(days+i)<<" "<<*(names+i)<<endl;
+  }
 }
