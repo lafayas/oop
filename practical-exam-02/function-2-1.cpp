@@ -37,6 +37,10 @@ void bmiIndex(int weight)
     }
     else if (weight == 39)
     {
+        cout<< "Looks like obese"<< endl;
+    }
+    else
+    {
         cout<< "Hmm, is this correct?"<< endl;
     }
 }
