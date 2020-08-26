@@ -21,10 +21,10 @@ void displayArray(int *numbers, int length)
   }
 }
 
-void bmiIndex (int weight)
+void bmiIndex(int weight)
 {   
       string *weight0 = new string [4];
-      int *weight1 = &weight;
+      int *weight1 = weight;
   
   for (int i = 0; i < 4; i++)
   {
