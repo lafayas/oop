@@ -22,33 +22,21 @@ void displayArray(int *numbers, int length)
 }
 
 void bmiIndex(int weight)
-{   
-      string *weight0 = new string [4];
-      int *weight1 = weight;
-  
-  for (int i = 0; i < 4; i++)
-  {
-      switch(weight1[i])
-      {
-          case 18:
-          weight0[i] = "bit underweight";
-          break;
-          case 24:
-          weight0[i] = "Healthy weight!";
-          break;
-          case 29:
-          weight0[i] = "That's overweight.";
-          case 39:
-          weight0[i] = "Looks like obese";
-          break;
-          default:
-          weight0[i] = "Hmmm, is that correct?";
-          break;
-      }
-  }
-  for (int i = 0; i < 4; i++)
-  {
-    
-    cout<<*(weight0+i)<<endl;
-  }
+{
+    if (weight == 18)
+    {
+        cout<< "bit underweight"<< endl;
+    }
+    else if (weight == 24)
+    {
+        cout<< "Healthy weight!"<< endl;
+    }
+    else if (weight == 29)
+    {
+        cout<< "That's overweight."<< endl;
+    }
+    else if (weight == 39)
+    {
+        cout<< "Hmm, is this correct?"<< endl;
+    }
 }
