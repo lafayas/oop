@@ -3,8 +3,8 @@
 
 using namespace std;  
 
-int *readNumbers(int length);
-void printNumbers(int *numbers, int length);
+extern int *readNumbers(int length);
+extern void printNumbers(int *numbers, int length);
 
 int main ()
 {
