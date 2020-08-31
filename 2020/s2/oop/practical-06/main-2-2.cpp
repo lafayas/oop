@@ -21,14 +21,14 @@ then replace the co-pilot with the original pilot.*/
 
 int main()
 {
-    person pilot = {"original-pilot", 1000};
-    person copilot = {"co-pilot", 1000};
-    aircraft F22 = {"F22", pilot, copilot};
+    person pilot = person("original-pilot", 1000);
+    person copilot = person("co-pilot", 1000);
+    aircraft F22 = aircraft("F22", pilot, copilot);
     F22.setPilot(pilot);
     F22.setCoPilot(copilot);
     F22.printDetails();
-    person pilot1 = {"new-pilot", 1000};
-    person copilot1 = {"original-pilot", 1000};
+    person pilot1 = person("new-pilot", 1000);
+    person copilot1 = person("original-pilot", 1000);
     F22.setPilot(pilot1);
     F22.setCoPilot(copilot1);
     F22.printDetails();
