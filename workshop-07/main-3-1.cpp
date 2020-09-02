@@ -11,7 +11,7 @@ int main()
     int *numbers1 = new int [n];
     int *numbers2 = new int [n];
     numbers1 = readNumbers();
-    numbers2 = readNumbers());
+    numbers2 = readNumbers();
     equalsArray(numbers1, numbers2, length);
     delete [] numbers1;
     delete [] numbers2;
