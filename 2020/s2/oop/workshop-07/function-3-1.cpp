@@ -32,9 +32,7 @@ bool equalsArray(int *numbers1,int *numbers2,int length)
         {
             return false;
         }
-        else
-        {
-            return true;
-        }
+
     }
+    return true;
 }
