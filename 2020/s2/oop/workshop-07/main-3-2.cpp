@@ -12,7 +12,7 @@ int main()
 	int *numbers1 = new int [length];
 	int *numbers2 = new int [length];
 	
-	numbers1 = readNumbers(length);
+	numbers1 = readNumbers();
 	numbers2 = reverseArray(numbers1, length);
 	
 	

@@ -9,7 +9,7 @@ int main()
     int n = 10;
     int length = n;
     int *numbers = new int [n];
-    numbers = readNumbers(n);
+    numbers = readNumbers();
     printNumbers(numbers, length);
     delete [] numbers;
     return 0;
