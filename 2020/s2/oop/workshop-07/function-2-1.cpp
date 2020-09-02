@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int *readNumbers(int n)
-{
+int *readNumbers()
+{   
+    int n = length;
     int *readNumbers = new int [n];
     for (int i = 0; i < n; i++)
     {
