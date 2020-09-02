@@ -3,7 +3,7 @@ using namespace std;
 
 int *readNumbers()
 {
-    int n = length;
+    int n = 10;
     int *readNumbers = new int [n];
     for (int i = 0; i < n; i++)
     {
