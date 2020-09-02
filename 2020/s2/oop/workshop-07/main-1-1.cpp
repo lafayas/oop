@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-extern void printNumbers(int *numbers,int length);
 extern int *readNumbers(int n); 
+extern void printNumbers(int *numbers,int length);
+
 
 int main()
 {
