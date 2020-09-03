@@ -1,6 +1,18 @@
-#include <iostream>
+#pragma once
 
-int main()
+#include <string>
+#include "Book.h"
+
+class Library
 {
-    return 0;
+    public:
+    Library();
+    Library(Book *book_collection);
+    
+    Book *collection;
+    
+    void borrowBook(string bname);
+    void returnBook(string bname);
+    
+    ~Library();
 }
