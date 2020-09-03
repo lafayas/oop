@@ -1,6 +1,22 @@
-#include <iostream>
+#pragma once
 
-int main()
+#include <string>
+using namespace std;
+
+class Book
 {
-    return 0;
-}
+    public:
+    Book();
+    Book(string bname, int bamount);
+    
+    string name;
+    int amount;
+    
+    void setName(string sname);
+    void getName();
+    
+    void setAmount(int samount);
+    void getAmount();
+    
+    ~Book();
+};
